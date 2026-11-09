@@ -1,0 +1,147 @@
+
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: navy;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Login card */
+.login-container {
+    background: white;
+    padding: 35px;
+    width: 350px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo i {
+    font-size: 45px;
+    color: #D6B45C;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #101D35;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input containers */
+.input-box {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    padding: 0 12px;
+    margin-bottom: 20px;
+}
+
+.input-box i {
+    color: #D6B45C;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    padding: 13px 10px;
+    font-size: 14px;
+}
+
+/* Password eye icon */
+.toggle-password {
+    cursor: pointer;
+}
+
+/* Forgot password */
+.forgot {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot a {
+    color: #101D35;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 13px;
+
+    background: #D6B45C;
+    color: #101D35;
+
+    border: none;
+    border-radius: 7px;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #BD9942;
+    transform: translateY(-2px);
+}
+
+/* Register section */
+.register {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #555;
+}
+
+.register a {
+    color: #101D35;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Message */
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}

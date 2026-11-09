@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard</title>
+
+    <!-- Dashboard CSS -->
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h2>SECURE PANEL</h2>
+        </div>
+
+        <nav>
+            <a href="#" class="active">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+
+            <a href="#profile">
+                <i class="fa-solid fa-user"></i>
+                My Profile
+            </a>
+
+            <a href="#settings">
+                <i class="fa-solid fa-gear"></i>
+                Settings
+            </a>
+
+            <a href="#security">
+                <i class="fa-solid fa-lock"></i>
+                Security
+            </a>
+        </nav>
+
+        <button id="logoutBtn" class="logout">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+        </button>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Top Navigation -->
+        <header class="topbar">
+
+            <h2>Dashboard</h2>
+
+            <div class="user-info">
+                <i class="fa-solid fa-circle-user"></i>
+                <span id="topUsername">User</span>
+            </div>
+
+        </header>
+
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+
+            <h1 id="welcomeMessage">Welcome Back!</h1>
+
+            <p>
+                Here's what's happening with your account today.
+            </p>
+
+        </section>
+
+
+        <!-- Dashboard Cards -->
+        <section class="cards">
+
+            <div class="card" id="profile">
+
+                <i class="fa-solid fa-user"></i>
+
+                <h3>My Profile</h3>
+
+                <p>View your personal information.</p>
+
+            </div>
+
+
+            <div class="card" id="account">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Account Status</h3>
+
+                <p>Demo account active.</p>
+
+            </div>
+
+
+            <div class="card" id="settings">
+
+                <i class="fa-solid fa-gear"></i>
+
+                <h3>Settings</h3>
+
+                <p>Manage your preferences.</p>
+
+            </div>
+
+
+            <div class="card" id="security">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <h3>Security</h3>
+
+                <p>Review your security settings.</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Account Overview -->
+        <section class="overview">
+
+            <h2>Account Overview</h2>
+
+            <p>
+                Your dashboard is ready.
+                You can manage your account from here.
+            </p>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2026 Secure Panel. All Rights Reserved.
+        </footer>
+
+    </main>
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>

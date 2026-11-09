@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <!-- Registration Logo -->
+        <div class="logo">
+            <i class="fa-solid fa-user-plus"></i>
+        </div>
+
+        <h1>Create Account</h1>
+
+        <p class="subtitle">
+            Join us today. It only takes a minute.
+        </p>
+
+        <form action="register.php" method="POST">
+
+            <!-- Full Name -->
+            <label for="fullname">Full Name</label>
+
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder="Enter your full name"
+                    required
+                >
+            </div>
+
+            <!-- Email -->
+            <label for="email">Email Address</label>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <!-- Password -->
+            <label for="password">Password</label>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                    required
+                >
+            </div>
+
+            <!-- Confirm Password -->
+            <label for="confirmPassword">Confirm Password</label>
+
+            <div class="input-box">
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm your password"
+                    required
+                >
+            </div>
+
+            <!-- Register Button -->
+            <button type="submit">
+                <i class="fa-solid fa-user-plus"></i>
+                Register
+            </button>
+
+        </form>
+
+        <p id="registerMessage"></p>
+
+        <div class="register">
+            Already have an account?
+            <a href="index.html">Login</a>
+        </div>
+
+    </div>
+
+    <script src="register.js"></script>
+
+</body>
+</html>
